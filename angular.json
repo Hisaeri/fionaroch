@@ -105,6 +105,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fionaroch"
+    }
+  },
+  "defaultProject": "fionaroch",
+  "cli": {
+    "analytics": "bf4573b6-2e4e-487a-ad29-d1211d97c642"
+  }
 }
