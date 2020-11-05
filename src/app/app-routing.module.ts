@@ -7,7 +7,7 @@ const routes: Routes = [
       .then((mod) => mod.HomeModule),
   },
   {
-    path: '**', redirectTo: '/',
+    path: '**', redirectTo: '',
   },
 ];
 
