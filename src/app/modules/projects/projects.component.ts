@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
-  template: `
-    <p>
-      projects works!
-    </p>
-  `,
+  templateUrl: 'projects.component.html',
   styles: [
   ]
 })

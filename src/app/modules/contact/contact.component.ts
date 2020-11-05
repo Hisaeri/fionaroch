@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
-  template: `
-    <p>
-      contact works!
-    </p>
-  `,
+  templateUrl: './contact.component.html',
   styles: [
   ]
 })
