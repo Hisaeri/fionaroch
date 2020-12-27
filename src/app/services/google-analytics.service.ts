@@ -30,8 +30,8 @@ export class GoogleAnalyticsService {
   public sendEvent(event: string, label: string = null): void {
     const eventType: any = this.eventName[event];
     if (environment.production && eventType) {
-        this.sendGoogleEvent(this.eventName[event].gCateg,
-          this.eventName[event].gName, label);
+      this.sendGoogleEvent(this.eventName[event].gCateg,
+        this.eventName[event].gName, label);
     }
   }
 
@@ -63,7 +63,7 @@ export class GoogleAnalyticsService {
       const gScript = document.createElement('script');
       gScript.async = true;
       gScript.src = 'https://www.googletagmanager.com/gtag/js?id='
-      + environment.googleAnalyticsId;
+        + environment.googleAnalyticsId;
       document.head.appendChild(gScript);
 
       // Init google script

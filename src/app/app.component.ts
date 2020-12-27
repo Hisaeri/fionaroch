@@ -8,14 +8,10 @@ import { GoogleAnalyticsService } from './services/google-analytics.service';
 })
 export class AppComponent implements OnInit {
 
-  constructor(
-    private googleAnalytics: GoogleAnalyticsService
-  ) {
-
+  constructor(private googleAnalytics: GoogleAnalyticsService) {
   }
 
   ngOnInit(): void {
     this.googleAnalytics.init();
   }
 }
-
