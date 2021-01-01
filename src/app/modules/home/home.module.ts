@@ -5,13 +5,15 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 
 import { MatButtonModule } from '@angular/material/button'
+import { SkillsModule } from '../skills/skills.module';
 
 @NgModule({
   declarations: [HomeComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
-    MatButtonModule
+    MatButtonModule,
+    SkillsModule
   ]
 })
 export class HomeModule { }
