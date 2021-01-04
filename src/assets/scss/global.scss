@@ -5,3 +5,7 @@
 @import "./loader.scss";
 @import "./padding.scss";
 @import "./buttons.scss";
+
+*:focus {
+  outline: none;
+}
