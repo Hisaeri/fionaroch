@@ -1,0 +1,19 @@
+<div class="menu-button" *ngIf="!isOpen">
+  <button mat-icon-button (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+</div>
+
+<div *ngIf="isOpen" class="menu" (click)="toggleMenu()">
+  <div class="menu-button">
+    <button mat-icon-button (click)="toggleMenu()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <div>
+    <h3 class="menu-link pb-1" [routerLink]="['/']" (click)="toggleMenu()">Home</h3>
+    <h3 class="menu-link pb-1" [routerLink]="['/about']" (click)="toggleMenu()">About</h3>
+    <h3 class="menu-link pb-1" [routerLink]="['/projects']" (click)="toggleMenu()">Projects</h3>
+    <h3 class="menu-link pb-1" [routerLink]="['/contact']" (click)="toggleMenu()">Contact</h3>
+  </div>
+</div>

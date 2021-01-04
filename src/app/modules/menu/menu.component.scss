@@ -1,0 +1,29 @@
+.menu-button {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.menu {
+  background: #000000d1;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.menu-link {
+  &:hover {
+    cursor: pointer;
+  }
+}
