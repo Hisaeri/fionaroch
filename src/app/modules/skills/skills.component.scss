@@ -1,0 +1,13 @@
+.bg {
+  height: 150px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: ease all 0.3s;
+  background-size: 40%;
+
+  &:hover {
+    filter: drop-shadow(2px 4px 6px #ccc);
+    background-size: 45%;
+  }
+}

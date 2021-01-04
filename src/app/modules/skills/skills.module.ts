@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SkillsComponent } from './skills.component';
-import { MatCardModule } from '@angular/material/card'
-import { MatGridListModule } from '@angular/material/grid-list'
+import { MatCardModule } from '@angular/material/card';
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   declarations: [SkillsComponent],
   imports: [
     CommonModule,
     MatCardModule,
-    MatGridListModule
+    MatDividerModule
   ],
   exports: [SkillsComponent]
 })

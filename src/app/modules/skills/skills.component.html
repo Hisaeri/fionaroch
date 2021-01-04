@@ -1,8 +1,14 @@
-<mat-card class="mat-elevation-z5">
-  <mat-grid-list cols="2" rowHeight="2:1">
-    <mat-grid-tile>1</mat-grid-tile>
-    <mat-grid-tile>2</mat-grid-tile>
-    <mat-grid-tile>3</mat-grid-tile>
-    <mat-grid-tile>4</mat-grid-tile>
-  </mat-grid-list>
+<mat-card class="mat-elevation-z5 p-1">
+
+  <!-- Front end -->
+  <div class="row pb-1">
+    <div *ngFor="let skill of frontSkills" class="col-xs-2 bg" [ngStyle]="{'background-image': 'url(/assets/img/logos/' + skill + '.png)'}"></div>
+  </div>
+
+  <mat-divider></mat-divider>
+
+  <!-- Back end / Devops -->
+  <div class="row pt-1">
+    <div *ngFor="let skill of backSkills" class="col-xs-2 bg" [ngStyle]="{'background-image': 'url(/assets/img/logos/' + skill + '.png)'}"></div>
+  </div>
 </mat-card>
