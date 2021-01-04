@@ -3,7 +3,7 @@
   <div class="row pb-1">
     <div *ngFor="let skill of frontSkills" class="col-xs-4 col-sm">
       <div class="bg" [ngStyle]="{'background-image': 'url(' + skill.path + ')'}">
-        <span>{{skill.title}}</span>
+        <span class="light">{{skill.title}}</span>
       </div>
     </div>
   </div>
@@ -14,7 +14,7 @@
   <div class="row pt-1">
     <div *ngFor="let skill of backSkills" class="col-xs-4 col-sm">
       <div class="bg" [ngStyle]="{'background-image': 'url(' + skill.path + ')'}">
-        <span>{{skill.title}}</span>
+        <span class="light">{{skill.title}}</span>
       </div>
     </div>
   </div>
