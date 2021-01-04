@@ -1,0 +1,23 @@
+body,
+html {
+  height: 100%;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+body {
+  background-color: $primary;
+  margin: 0;
+  color: $txt;
+  font-weight: 300;
+}
+
+.mat-typography h1,
+.mat-typography h2,
+.mat-typography h3,
+.mat-typography h4,
+.mat-typography h5,
+.mat-typography h6 {
+  font-weight: 300;
+}
