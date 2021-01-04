@@ -1,10 +1,10 @@
 $loader-blue: $primary;
 $loader-purple: $secondary;
-$loader-pink: $accent2;
+$loader-pink: $accent1;
 
 .loader {
   position: absolute;
-  background: linear-gradient(0, $loader-blue, $loader-purple);
+  background: $loader-blue;
   top: 0;
   height: 100%;
   width: 100%;
