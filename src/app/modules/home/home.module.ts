@@ -6,6 +6,7 @@ import { HomeComponent } from './home.component';
 
 import { MatButtonModule } from '@angular/material/button'
 import { SkillsModule } from '../skills/skills.module';
+import { HeroModule } from '../hero/hero.module';
 
 @NgModule({
   declarations: [HomeComponent],
@@ -13,7 +14,8 @@ import { SkillsModule } from '../skills/skills.module';
     CommonModule,
     HomeRoutingModule,
     MatButtonModule,
-    SkillsModule
+    SkillsModule,
+    HeroModule
   ]
 })
 export class HomeModule { }
