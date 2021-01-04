@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
   public frontSkills: Array<string> = ['angular', 'tscript', 'vue', 'sass', 'bootstrap'];
-  public backSkills: Array<string> = ['nodejs', 'django', 'pgsql', 'aws', 'heroku'];
+  public backSkills: Array<string> = ['nodejs', 'pgsql', 'aws', 'heroku', 'django'];
   constructor() { }
 
   ngOnInit(): void {

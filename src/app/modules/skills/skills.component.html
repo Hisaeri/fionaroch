@@ -1,14 +1,17 @@
 <mat-card class="mat-elevation-z5 p-1">
-
   <!-- Front end -->
   <div class="row pb-1">
-    <div *ngFor="let skill of frontSkills" class="col-xs-2 bg" [ngStyle]="{'background-image': 'url(/assets/img/logos/' + skill + '.png)'}"></div>
+    <div *ngFor="let skill of frontSkills" class="col-xs-4 col-md">
+      <div class="bg" [ngStyle]="{'background-image': 'url(/assets/img/logos/' + skill + '.png)'}"> </div>
+    </div>
   </div>
 
   <mat-divider></mat-divider>
 
   <!-- Back end / Devops -->
   <div class="row pt-1">
-    <div *ngFor="let skill of backSkills" class="col-xs-2 bg" [ngStyle]="{'background-image': 'url(/assets/img/logos/' + skill + '.png)'}"></div>
+    <div *ngFor="let skill of backSkills" class="col-xs-6 col-md">
+      <div class="bg" [ngStyle]="{'background-image': 'url(/assets/img/logos/' + skill + '.png)'}"> </div>
+    </div>
   </div>
 </mat-card>
