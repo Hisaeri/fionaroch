@@ -3,7 +3,7 @@ $loader-purple: $secondary;
 $loader-pink: $accent1;
 
 .loader {
-  position: absolute;
+  position: fixed;
   background: $loader-blue;
   top: 0;
   height: 100%;
