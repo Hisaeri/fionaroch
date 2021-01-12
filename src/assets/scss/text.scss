@@ -22,10 +22,22 @@ body {
   font-weight: 300;
 }
 
+p {
+  font-weight: 300;
+}
+
+a {
+  color: $txt-link;
+}
+
 .light {
   font-weight: 300;
 }
 
 .txt-light {
   color: $txt-light;
+}
+
+.txt-center {
+  text-align: center;
 }
