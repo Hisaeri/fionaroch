@@ -5,7 +5,12 @@
 @import "./loader.scss";
 @import "./padding.scss";
 @import "./buttons.scss";
+@import "~swiper/swiper-bundle";
 
 *:focus {
   outline: none;
+}
+
+.w-100 {
+  width: 100%;
 }
