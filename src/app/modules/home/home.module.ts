@@ -8,6 +8,8 @@ import { MatButtonModule } from '@angular/material/button'
 import { SkillsModule } from '../skills/skills.module';
 import { HeroModule } from '../hero/hero.module';
 import { ContactModule } from '../contact/contact.module';
+import { AboutModule } from '../about/about.module';
+import { ProjectsModule } from '../projects/projects.module';
 
 @NgModule({
   declarations: [HomeComponent],
@@ -17,7 +19,9 @@ import { ContactModule } from '../contact/contact.module';
     MatButtonModule,
     SkillsModule,
     HeroModule,
-    ContactModule
+    ContactModule,
+    AboutModule,
+    ProjectsModule
   ]
 })
 export class HomeModule { }
