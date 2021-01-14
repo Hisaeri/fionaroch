@@ -2,21 +2,8 @@
   max-width: 40px;
 }
 
-.contact-title {
-  margin-bottom: 75px;
-  background: #545454;
-}
-
-.contact-container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-row {
-  background: white;
-  border-radius: 4px;
+.contact-title h1 {
+  margin-bottom: 0;
 }
 
 .contact-card {
