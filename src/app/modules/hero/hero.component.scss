@@ -1,5 +1,9 @@
+@import 'src/assets/scss/colors.scss';
+
 .hero-container {
   height: 100vh;
+  z-index: 1;
+  position: relative;
 }
 
 .hero {
@@ -35,4 +39,8 @@
   padding-top: 50px;
   font-size: 20px;
   line-height: 30px;
+}
+
+.hero-name {
+  letter-spacing: 2px;
 }
