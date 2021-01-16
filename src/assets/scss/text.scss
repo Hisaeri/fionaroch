@@ -30,12 +30,23 @@ a {
   color: $txt-link;
 }
 
+.mat-typography h2 {
+  font-size: 30px;
+  border-bottom: 1px solid $accent1-light;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
 .light {
   font-weight: 300;
 }
 
 .txt-light {
   color: $txt-light;
+}
+
+.txt-accent {
+  color: $accent1;
 }
 
 .txt-center {
