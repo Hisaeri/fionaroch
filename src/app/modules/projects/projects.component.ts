@@ -4,8 +4,7 @@ import { Swiper, Navigation, Autoplay, Pagination } from 'swiper';
 @Component({
   selector: 'app-projects',
   templateUrl: 'projects.component.html',
-  styles: [
-  ]
+  styleUrls: ['projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
 
