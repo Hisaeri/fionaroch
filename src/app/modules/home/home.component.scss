@@ -1,0 +1,13 @@
+.home-container {
+  background: white;
+  position: relative;
+}
+
+.home-content {
+  padding: 0 100px;
+}
+@media screen and (max-width: 760px) {
+  .home-content {
+    padding: 0;
+  }
+}
