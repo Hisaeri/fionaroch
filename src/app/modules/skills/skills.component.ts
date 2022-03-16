@@ -19,12 +19,12 @@ class Skill {
 })
 export class SkillsComponent implements OnInit {
   public frontSkills: Array<Skill> = [
-    new Skill('Angular', '/assets/img/logos/angular.png'),
     new Skill('VueJS', '/assets/img/logos/vue.png'),
-    new Skill('Ionic', '/assets/img/logos/ionic.png'),
+    new Skill('Angular', '/assets/img/logos/angular.png'),
     new Skill('TypeScript', '/assets/img/logos/tscript.png'),
     new Skill('Sass', '/assets/img/logos/sass.png'),
     new Skill('Bootstrap', '/assets/img/logos/bootstrap.png'),
+    new Skill('Ionic', '/assets/img/logos/ionic.png'),
   ];
   public backSkills: Array<Skill> = [
     new Skill('NodeJS', '/assets/img/logos/nodejs.png'),
