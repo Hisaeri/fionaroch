@@ -7,7 +7,6 @@ html {
 }
 
 body {
-  background-color: $primary;
   margin: 0;
   color: $txt;
   font-weight: 300;
@@ -33,9 +32,7 @@ a {
 
 .mat-typography h2 {
   font-size: 30px;
-  border-bottom: 1px solid $accent1-light;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .light {
@@ -47,7 +44,7 @@ a {
 }
 
 .txt-accent {
-  color: $accent1;
+  color: $accent;
 }
 
 .txt-center {
